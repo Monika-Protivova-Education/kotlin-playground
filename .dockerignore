@@ -1,0 +1,31 @@
+# Version control
+.git
+.gitignore
+
+# Build artifacts (we only need source for multi-stage build)
+build/
+.gradle/
+
+# IDE files
+.idea/
+*.iml
+
+# Docker files
+docker-compose.yml
+
+# Documentation
+README.md
+docs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Monitoring config (not needed in app image)
+config/
+
+# Kubernetes manifests
+k8s/
+
+# Output files
+output.txt

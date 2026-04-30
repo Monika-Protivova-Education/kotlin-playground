@@ -1,27 +1,16 @@
 plugins {
-    alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.kotlin.jvm) apply false
+    alias(libs.plugins.kotlin.spring) apply false
+    alias(libs.plugins.kotlin.jpa) apply false
+    alias(libs.plugins.spring.boot) apply false
+    alias(libs.plugins.spring.dependency.management) apply false
 }
 
-group = "com.example"
-version = "1.0-SNAPSHOT"
+subprojects {
+    group = "space.harbour.kotlin"
+    version = "1.0-SNAPSHOT"
 
-repositories {
-    mavenCentral()
-}
-
-kotlin {
-    jvmToolchain(23)
-}
-
-dependencies {
-    implementation(libs.kotlin.logging)
-    runtimeOnly(libs.logback.classic)
-
-    testImplementation(libs.kotest.runner.junit5)
-    testImplementation(libs.kotest.assertions.core)
-    testImplementation(libs.kotest.property)
-}
-
-tasks.withType<Test>().configureEach {
-    useJUnitPlatform()
+    repositories {
+        mavenCentral()
+    }
 }

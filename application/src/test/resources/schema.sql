@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS tasks (
+    id BIGSERIAL PRIMARY KEY,
+    description TEXT NOT NULL,
+    status VARCHAR(20) NOT NULL DEFAULT 'NOT_STARTED',
+    created_by BIGINT NOT NULL
+);

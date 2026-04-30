@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: kotlin-playground
+data:
+  SPRING_PROFILES_ACTIVE: "prod,jpa"
+  SPRING_DATASOURCE_URL: "jdbc:postgresql://postgres:5432/playground"
+  SPRING_JPA_HIBERNATE_DDL_AUTO: "update"
+  SPRING_SQL_INIT_MODE: "always"
+  SERVER_PORT: "8080"
+  JWT_EXPIRATION_MS: "3600000"

@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>DestructuringDeclarationWithTooManyEntries:DataClass.kt$val (subject, _, _, students, _) = course</ID>
+    <ID>EmptyFunctionBlock:Lesson1.kt${ }</ID>
+    <ID>EmptyFunctionBlock:Maps.kt${ }</ID>
+    <ID>EmptyFunctionBlock:Sets.kt${ }</ID>
+    <ID>EmptyFunctionBlock:ValueClass.kt${ }</ID>
+    <ID>MagicNumber:CatchWithWhen.kt$5</ID>
+    <ID>MagicNumber:CatchWithWhen.kt$99</ID>
+    <ID>MagicNumber:DataClass.kt$20</ID>
+    <ID>MagicNumber:DataClass.kt$UniversityCourseData$7</ID>
+    <ID>MagicNumber:DataConversionValidation.kt$3</ID>
+    <ID>MagicNumber:Days.kt$7</ID>
+    <ID>MagicNumber:Days.kt$Days.FRIDAY$5</ID>
+    <ID>MagicNumber:Days.kt$Days.SATURDAY$6</ID>
+    <ID>MagicNumber:Days.kt$Days.SUNDAY$7</ID>
+    <ID>MagicNumber:Days.kt$Days.THURSDAY$4</ID>
+    <ID>MagicNumber:Days.kt$Days.WEDNESDAY$3</ID>
+    <ID>MagicNumber:Functions.kt$3.14</ID>
+    <ID>MagicNumber:Generics.kt$2.4</ID>
+    <ID>MagicNumber:Lists.kt$1000000</ID>
+    <ID>MagicNumber:Lists.kt$5</ID>
+    <ID>MagicNumber:Polymorphism.kt$10</ID>
+    <ID>MagicNumber:Polymorphism.kt$20</ID>
+    <ID>MagicNumber:Polymorphism.kt$30</ID>
+    <ID>MagicNumber:UniversityCourse.kt$UniversityCourse$5</ID>
+    <ID>MagicNumber:UniversityCourse.kt$UniversityCourse$7</ID>
+    <ID>MatchingDeclarationName:DataClass.kt$UniversityCourseData</ID>
+    <ID>MatchingDeclarationName:Objects.kt$UniversityCourse</ID>
+    <ID>MatchingDeclarationName:Polymorphism.kt$Calculator</ID>
+    <ID>MaxLineLength:FileIoCsvUsers.kt$val inputPath = Paths.get("/Users/monikaprotivova/IdeaProjects/Education/kotlin-playground/src/main/resources/users.csv")</ID>
+    <ID>SwallowedException:FileIoCsvUsers.kt$e: RuntimeException</ID>
+    <ID>ThrowsCount:CatchWithWhen.kt$fun getUser( token: String?, userId: Int, ): User</ID>
+    <ID>ThrowsCount:DataConversionValidation.kt$fun parseUserFromCsv(line: String): User</ID>
+    <ID>ThrowsCount:RequireCheckValidation.kt$fun main()</ID>
+    <ID>TooGenericExceptionCaught:BufferedReaderUse.kt$e: Exception</ID>
+    <ID>TooGenericExceptionCaught:CatchWithWhen.kt$e: Exception</ID>
+    <ID>TooGenericExceptionCaught:DataConversionValidation.kt$e: Exception</ID>
+    <ID>TooGenericExceptionCaught:FileIoCsvUsers.kt$e: RuntimeException</ID>
+    <ID>TooGenericExceptionCaught:RequireCheckValidation.kt$e: Exception</ID>
+    <ID>TooGenericExceptionThrown:CatchWithWhen.kt$throw RuntimeException("Database error")</ID>
+    <ID>UnusedParameter:ValueClass.kt$id: UserId</ID>
+    <ID>UnusedParameter:ValueClass.kt$name: String</ID>
+    <ID>UnusedParameter:ValueClass.kt$orgId: OrganizationId</ID>
+    <ID>UnusedPrivateProperty:DataClass.kt$val course2 = course.copy(subject = "Java")</ID>
+    <ID>UnusedPrivateProperty:Lists.kt$val resultCollection = numbers .filter { it % 2 == 0 } // Creates intermediate list .map { Thread.sleep(5) it * it } // Creates another intermediate list .take(5) // Creates final list with 5 elements</ID>
+    <ID>UnusedPrivateProperty:Lists.kt$val resultSequence = numbers.asSequence() .filter { it % 2 == 0 } // No intermediate collection created .map { Thread.sleep(5) it * it } // No intermediate collection created .take(5) // Only processes first 10 elements to get 5 results .toList() // Terminal operation - converts to list</ID>
+    <ID>UnusedPrivateProperty:Objects.kt$val course = UniversityCourse .create(subject = UniversityCourse.KOTLIN)</ID>
+    <ID>UnusedPrivateProperty:Objects.kt$val course2 = UniversityCourse .create(subject = UniversityCourse.JAVA)</ID>
+    <ID>UnusedPrivateProperty:TryCatchBasics.kt$val input1 = "1,Alice,alice@mail.com"</ID>
+    <ID>UnusedPrivateProperty:TryCatchBasics.kt$val input2 = "bad,Bob,bob@mail.com"</ID>
+    <ID>UnusedPrivateProperty:TryCatchBasics.kt$val input3 = "3"</ID>
+  </CurrentIssues>
+</SmellBaseline>

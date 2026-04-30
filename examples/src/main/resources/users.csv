@@ -1,0 +1,34 @@
+id,name,email
+1,Alice,alice@mail.com
+2,Bob,bob@mail.com
+3,Charlie,charlie@mail.com
+4,Diana,diana@company.com
+5,Eve,eve@mail.com
+6,Frank,frank@company.com
+7,Grace,grace@mail.com
+8,Hank,hank@company.com
+9,Ivy,ivy@mail.com
+10,Jack,jack@mail.com
+11,Karen,karen@company.com
+12,Leo,leo@mail.com
+13,Mona,mona@company.com
+14,Nate,nate@mail.com
+15,Olivia,olivia@company.com
+16,Paul,paul@mail.com
+17,Quinn,quinn@mail.com
+18,Rita,rita@company.com
+19,Sam,sam@mail.com
+20,Tina,tina@company.com
+bad-id,Invalid User,invalid@mail.com
+22,,missing-name@mail.com
+23,No Email,no-at-sign
+24,Duplicate,alice@mail.com
+25,Blank Email,
+26,Eva,eva@mail.com
+27,Oscar,oscar@company.com
+28,Liam,liam@mail.com
+29,Nina,nina@company.com
+30,Tom,tom@mail.com
+31,Uma,uma@company.com
+32,Victor,victor@mail.com
+33,Wendy,wendy@company.com
